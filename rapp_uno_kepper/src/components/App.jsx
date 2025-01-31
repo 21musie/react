@@ -10,6 +10,10 @@ return(
 <Header />
     <Note />
     <Footer />
+    {/* //////before using map method for loop////// */}
+    <Header />
+    <Note />
+    <Footer />
 </div>    
 );
 }

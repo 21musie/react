@@ -13,12 +13,9 @@ return(
     {/* //////before using map method for loop////// */}
     <Header />
     
-    {notes.map(  (note)=> 
-    <Note 
-    key={note.id}
-    title={note.title}
-    content={note.content}
-    />  )}
+    {notes.map((note) => (
+        <Note key={note.key} title={note.title} content={note.content} />
+      ))}
     
     <Footer />
 </div>    

@@ -13,8 +13,11 @@ return(
     {/* //////before using map method for loop////// */}
     <Header />
     
+    {notes.map(  (note)=> 
+    <Note 
+        
+    />  )}
     
-    <Note />
     <Footer />
 </div>    
 );

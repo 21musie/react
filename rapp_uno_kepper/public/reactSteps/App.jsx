@@ -14,17 +14,17 @@ function App() {
     const [isOpen, setIsOpen] = useState(true);  
     function handlePrevious(){
     
-    step>1 && setStep(currStep => step - 1);
+    step>1 && setStep(currStep => currStep - 1);
     }
     
     function handleNext(){
     
-    step<3 && setStep(currStep => step + 1);
+    step<3 && setStep(currStep => currStep + 1);
     }
 
   return (
     <>
-    <button onClick={()=>setIsOpen(!isOpen)} className='close'>&nbsp</button>
+    <button onClick={()=>setIsOpen((isOp)=>!isOp)} className='close'>&times;</button>
     {isOpen &&
     <div className="steps">
     <div className='numbers'>

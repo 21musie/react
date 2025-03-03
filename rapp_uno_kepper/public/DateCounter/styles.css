@@ -1,0 +1,75 @@
+/* General Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* App Container */
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #666;
+    font-weight: normal;
+}
+
+
+/* Button and Counter Container */
+
+.counter-container,
+.steps-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px;
+}
+
+
+/* Buttons */
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #004494;
+}
+
+
+/* Step and Counter Text */
+
+p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0 10px;
+    color: #333;
+}
+
+
+/* Date Display */
+
+.date-display {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #222;
+}

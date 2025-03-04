@@ -7,9 +7,10 @@ function App() {
   return (
     <>
         <Logo />
+        <Form />
         <Item />
     </>
-  )
+  );
 }
 
 export default App
